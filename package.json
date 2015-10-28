@@ -1,0 +1,41 @@
+{
+  "name": "ampersand-es6-example",
+  "version": "0.0.1",
+  "description": "Sample setup with Gulp, Babel, Mocha and Webpack",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagorg/ampersand-es6-example.git"
+  },
+  "keywords": [
+    "gulp",
+    "es6",
+    "babel",
+    "webpack",
+    "ampersand"
+  ],
+  "author": "Tiago Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagorg/ampersand-es6-example/issues"
+  },
+  "homepage": "https://github.com/tiagorg/ampersand-es6-example#readme",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "gulp-babel": "^5.3.0",
+    "gulp-util": "^3.0.7",
+    "handlebars-loader": "^1.1.4",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "ampersand-app": "^1.0.4",
+    "ampersand-state": "^4.6.0",
+    "ampersand-view": "^9.0.0",
+    "handlebars": "^4.0.3"
+  }
+}
