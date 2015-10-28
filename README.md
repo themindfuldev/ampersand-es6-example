@@ -15,3 +15,8 @@ Running ```gulp``` will:
 3. Package bundles with Webpack (dedupe + uglify)
 
 See it live: run ```gulp server``` and open [http://localhost:8080/](http://localhost:8080/). Verify you have downloaded just the preload JS bundle file. Now hit the buttons, it will download the additional bundle files, related with the button you've just hit.
+
+Instructions:
+
+1. npm install
+2. gulp server
